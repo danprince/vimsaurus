@@ -1,11 +1,11 @@
-function! FindSynonym()
+function! vimsaurus#Find()
   let target = expand("<cword>")
-  call NextSynonym(target)
+  call vimsaurus#Next(target)
 endfunction
 
-function! NextSynonym(target)
+function! vimsaurus#Next(target)
   let synonym = system("bashsaurus " . a:target)
   let cleaned = substitute(synonym, "\n", "", "")
-  execute "normal ciw" . cleaned
+  execute "normal! ciw" . cleaned
 endfunction
 
