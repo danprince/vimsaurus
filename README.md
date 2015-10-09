@@ -5,7 +5,7 @@ Vim plugin complement to [Bashsaurus][1].
 [![asciicast](https://asciinema.org/a/edoazzmuqmtmtlnx5dhph3b5z.png)](https://asciinema.org/a/edoazzmuqmtmtlnx5dhph3b5z)
 
 ## Install
-Vimsaurus __requires__ that the [Bashsaurus] script can be found on your PATH.
+Vimsaurus __requires__ that the [Bashsaurus][1] script can be found on your PATH.
 
 ```
 NeoBundle 'danprince/vimsaurus'
