@@ -4,6 +4,17 @@ Vim plugin complement to [Bashsaurus][1].
 ## Example
 [![asciicast](https://asciinema.org/a/edoazzmuqmtmtlnx5dhph3b5z.png)](https://asciinema.org/a/edoazzmuqmtmtlnx5dhph3b5z)
 
+## Install
+Vimsaurus __requires__ that the [Bashsaurus] script can be found on your PATH.
+
+```
+NeoBundle 'danprince/vimsaurus'
+" or
+Vundle 'danprince/vimsaurus'
+" or
+Plug 'danprince/vimsaurus'
+```
+
 ## Commands
 The plugin defines the following commands.
 
