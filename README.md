@@ -7,7 +7,7 @@ Vim plugin complement to [Bashsaurus][1].
 ## Install
 Vimsaurus __requires__ that the [Bashsaurus][1] script can be found on your PATH.
 
-```
+```vim
 NeoBundle 'danprince/vimsaurus'
 " or
 Vundle 'danprince/vimsaurus'
