@@ -17,12 +17,12 @@ function! vimsaurus#Next()
   " insert text into buffer
   execute "normal! ciw" . cleaned
 
-  if g:target =~ "^[A-Z]*$"
+  if g:target =~# "^[A-Z]*$"
   " if all characters are uppercase
     echom "Word is capitalized"
     normal! viwU
 
-  elseif g:target =~ "^[A-Z]"
+  elseif g:target =~# "^[A-Z]"
   " if first letter is uppercase
     echom "First letter capital"
     normal! viwbU
